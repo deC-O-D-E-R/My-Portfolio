@@ -7,7 +7,8 @@ import { FaHome } from "react-icons/fa";
 import Clients from "@/components/Clients";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
-// import Approach from "@/components/Approach";
+import { CanvasRevealEffectDemo } from "@/components/Approach";
+import React, { createContext } from 'react';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         <RecentProjects />
         <Clients />
         <Experience />
-        {/* <Approach /> */}
+        <CanvasRevealEffectDemo />
         <Footer />
       </div>
     </main>
