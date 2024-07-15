@@ -49,12 +49,12 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently building a JS Animation library",
+      title: "Currently building an e Commerce website for a friend",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
+      titleClassName: "left-8 md:justify-start",
+      img: "/b5.png",
       spareImg: "/grid.svg",
     },
     {
@@ -71,69 +71,69 @@ export const navItems = [
   
   export const projects = [
     {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
-    },
-    {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+      title: "A NGO website: SeekhFoundation",
+      des: "It is a website we made using Node, React and Tailwind CSS for a NGO working in New Delhi.",
+      img: "/p2.png",
+      iconLists: ["/node.svg", "/re.svg", "/tail.svg"],
       link: "https://github.com/adrianhajdin/zoom-clone",
     },
     {
       id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+      title: "This very site:  My-Portfolio",
+      des: "It is a complex webpage I made using ReactJS, Neaxt Js, TypeScript, Framer Motion and Tailwind CSS to showcase my development experience.",
+      img: "/p3.png",
+      iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/fm.svg", "/tail.svg"],
       link: "https://github.com/adrianhajdin/ai_saas_app",
     },
     {
       id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+      title: "Criminal Case Handling site: CrimeConnect",
+      des: "I created an online criminal case management system using NodeJs, ExpressJs and MongoDB",
+      img: "/p4.png",
+      iconLists: ["/node.svg", "/ex.svg", "/mongo.svg"],
       link: "https://github.com/adrianhajdin/iphone",
     },
+    {
+      id: 1,
+      title: "Food Delevery App: Food_X",
+      des: "It is a user-friendly food delivery app built with React and MongoDB. Enjoy a seamless ordering experience, real-time tracking, secure payments, and access to a wide range of restaurants. Fast, reliable, and convenient food delivery at your fingertips.",
+      img: "/p1.png",
+      iconLists: [ "/node.svg", "/re.svg", "/tail.svg", "/mongo.svg"],
+      link: "https://github.com/adrianhajdin?tab=repositories",
+    }
   ];
   
   export const testimonials = [
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with lorem ipsum dolor sit amet. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      name: "John Doe",
+      title: "Director of Alpha Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with lorem ipsum dolor sit amet. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      name: "John Doe",
+      title: "Director of Alpha Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with lorem ipsum dolor sit amet. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      name: "John Doe",
+      title: "Director of Alpha Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with lorem ipsum dolor sit amet. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      name: "John Doe",
+      title: "Director of Alpha Technologies",
     },
     {
       quote:
-        "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-      name: "Michael Johnson",
-      title: "Director of AlphaStream Technologies",
+        "Collaborating with lorem ipsum dolor sit amet. Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      name: "John Doe",
+      title: "Director of Alpha Technologies",
     },
   ];
   
@@ -173,29 +173,29 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
+      title: "Mern Stack Engineer Intern",
       desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Machine Learning",
+      desc: "Designed and developed deep learning model for Detecting Facemask  deployed to frontend.",
+      className: "md:col-span-2", 
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
-      title: "Freelance App Dev Project",
-      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "Freelance Front End web Projects",
+      desc: "Led the dev of a web app for a client, from initial concept to deployment on web app hosts.",
+      className: "md:col-span-2",
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Lead Frontend Developer",
-      desc: "Developed and maintained user-facing features using modern frontend technologies.",
+      title: "React and Next JS developer",
+      desc: "Developed and maintained user-facing features using modern technologies like ReactJS and NextJS.",
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
@@ -205,13 +205,21 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      to: "https://github.com/deC-O-D-E-R"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/link.svg",
+      to: "https://www.linkedin.com/in/mohd-saif-826b22255/"
     },
     {
       id: 3,
-      img: "/link.svg",
+      img: "/insta.svg",
+      to: "https://www.instagram.com/saif_itis/"
+    },
+    {
+      id: 4,
+      img:"/fb.svg",
+      to: "https://www.facebook.com/profile.php?id=100020907069538",
     },
   ];
