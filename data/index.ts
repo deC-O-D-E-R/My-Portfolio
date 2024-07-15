@@ -76,7 +76,7 @@ export const navItems = [
       des: "It is a website we made using Node, React and Tailwind CSS for a NGO working in New Delhi.",
       img: "/p2.png",
       iconLists: ["/node.svg", "/re.svg", "/tail.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      link: "https://github.com/deC-O-D-E-R/SeekhFoundation",
     },
     {
       id: 3,
@@ -84,7 +84,7 @@ export const navItems = [
       des: "It is a complex webpage I made using ReactJS, Neaxt Js, TypeScript, Framer Motion and Tailwind CSS to showcase my development experience.",
       img: "/p3.png",
       iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/fm.svg", "/tail.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
+      link: "https://github.com/deC-O-D-E-R/My-Portfolio",
     },
     {
       id: 4,
@@ -92,7 +92,7 @@ export const navItems = [
       des: "I created an online criminal case management system using NodeJs, ExpressJs and MongoDB",
       img: "/p4.png",
       iconLists: ["/node.svg", "/ex.svg", "/mongo.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
+      link: "https://github.com/deC-O-D-E-R/CaseHearing",
     },
     {
       id: 1,
@@ -100,7 +100,7 @@ export const navItems = [
       des: "It is a user-friendly food delivery app built with React and MongoDB. Enjoy a seamless ordering experience, real-time tracking, secure payments, and access to a wide range of restaurants. Fast, reliable, and convenient food delivery at your fingertips.",
       img: "/p1.png",
       iconLists: [ "/node.svg", "/re.svg", "/tail.svg", "/mongo.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/deC-O-D-E-R/Food_Delivery_App",
     }
   ];
   
