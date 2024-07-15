@@ -71,6 +71,14 @@ export const navItems = [
   
   export const projects = [
     {
+      id: 1,
+      title: "This very site:  My-Portfolio",
+      des: "It is a complex webpage I made using ReactJS, Neaxt Js, TypeScript, Framer Motion and Tailwind CSS to showcase my development experience.",
+      img: "/p3.png",
+      iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/fm.svg", "/tail.svg"],
+      link: "https://github.com/deC-O-D-E-R/My-Portfolio",
+    },
+    {
       id: 2,
       title: "A NGO website: SeekhFoundation",
       des: "It is a website we made using Node, React and Tailwind CSS for a NGO working in New Delhi.",
@@ -80,22 +88,14 @@ export const navItems = [
     },
     {
       id: 3,
-      title: "This very site:  My-Portfolio",
-      des: "It is a complex webpage I made using ReactJS, Neaxt Js, TypeScript, Framer Motion and Tailwind CSS to showcase my development experience.",
-      img: "/p3.png",
-      iconLists: ["/re.svg", "/next.svg", "/ts.svg", "/fm.svg", "/tail.svg"],
-      link: "https://github.com/deC-O-D-E-R/My-Portfolio",
+      title: "Criminal Case Handling site: CrimeConnect",
+    des: "I created an online criminal case management system using NodeJs, ExpressJs and MongoDB",
+    img: "/p4.png",
+    iconLists: ["/node.svg", "/ex.svg", "/mongo.svg"],
+    link: "https://github.com/deC-O-D-E-R/CaseHearing",
     },
     {
       id: 4,
-      title: "Criminal Case Handling site: CrimeConnect",
-      des: "I created an online criminal case management system using NodeJs, ExpressJs and MongoDB",
-      img: "/p4.png",
-      iconLists: ["/node.svg", "/ex.svg", "/mongo.svg"],
-      link: "https://github.com/deC-O-D-E-R/CaseHearing",
-    },
-    {
-      id: 1,
       title: "Food Delevery App: Food_X",
       des: "It is a user-friendly food delivery app built with React and MongoDB. Enjoy a seamless ordering experience, real-time tracking, secure payments, and access to a wide range of restaurants. Fast, reliable, and convenient food delivery at your fingertips.",
       img: "/p1.png",
@@ -103,7 +103,7 @@ export const navItems = [
       link: "https://github.com/deC-O-D-E-R/Food_Delivery_App",
     }
   ];
-  
+
   export const testimonials = [
     {
       quote:
