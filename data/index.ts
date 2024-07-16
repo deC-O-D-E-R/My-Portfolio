@@ -96,7 +96,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Food Delevery App: Food_X",
+      title: "Food Delevery App: GoFood",
       des: "It is a user-friendly food delivery app built with React and MongoDB. Enjoy a seamless ordering experience, real-time tracking, secure payments, and access to a wide range of restaurants. Fast, reliable, and convenient food delivery at your fingertips.",
       img: "/p1.png",
       iconLists: [ "/node.svg", "/re.svg", "/tail.svg", "/mongo.svg"],

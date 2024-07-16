@@ -13,13 +13,19 @@ export function Approach() {
             </h1>
             <div className="flex flex-wrap items-center justify-center p-4 gap-x-44 gap-y-8 mt-10">
                 <div className="py-20 flex flex-col lg:flex-row items-center justify-center bg-white dark:bg-black w-full gap-4 mx-auto px-8">
-                    <Card title="I Love" icon={<AceternityIcon />}>
+                    <Card title="Planning & Strategy" icon={<AceternityIcon />} 
+                    des="We'll collaborate to map out your website's goals, target audience, 
+                    and key functionalities. We'll discuss things like site structure, 
+                    navigation, and content requirements.">
                         <CanvasRevealEffect
                             animationSpeed={5.1}
                             containerClassName="bg-emerald-900"
                         />
                     </Card>
-                    <Card title="You" icon={<AceternityIcon />}>
+                    <Card title="Development & Progress Update" icon={<AceternityIcon />} 
+                    des="Once we agree on the plan, I cue my lofi playlist and dive into
+                    coding. From initial sketches to polished code, I keep you updated
+                    every step of the way.">
                         <CanvasRevealEffect
                             animationSpeed={3}
                             containerClassName="bg-black"
@@ -31,7 +37,10 @@ export function Approach() {
                         />
                         <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
                     </Card>
-                    <Card title="Mustejabo" icon={<AceternityIcon />}>
+                    <Card title="Development & Launch" icon={<AceternityIcon />} 
+                    des="This is where the magic happens! Based on the approved design, 
+                    I'll translate everything into functional code, building your website
+                    from the ground up.">
                         <CanvasRevealEffect
                             animationSpeed={3}
                             containerClassName="bg-sky-600"
@@ -49,10 +58,12 @@ export function Approach() {
 const Card = ({
     title,
     icon,
+    des,
     children,
 }: {
     title: string;
     icon: React.ReactNode;
+    des: string;
     children?: React.ReactNode;
 }) => {
     const [hovered, setHovered] = React.useState(false);
@@ -83,9 +94,17 @@ const Card = ({
                 <div className="text-center group-hover/canvas-card:-translate-y-4 group-hover/canvas-card:opacity-0 transition duration-200 w-full  mx-auto flex items-center justify-center">
                     {icon}
                 </div>
-                <h2 className="dark:text-white text-xl opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
+                <h2 className="text-3xl text-center pb-[30px] dark:text-white opacity-0 group-hover/canvas-card:opacity-100 relative z-10 text-black mt-4  font-bold group-hover/canvas-card:text-white group-hover/canvas-card:-translate-y-2 transition duration-200">
                     {title}
                 </h2>
+                    <p
+                    className="text-sm opacity-0 group-hover/canvas-card:opacity-100
+                    relative z-10 mt-4 group-hover/canvas-card:text-white text-left
+                    group-hover/canvas-card:-translate-y-2 transition duration-200"
+                    style={{ color: "#E4ECFF" }}
+                    >
+                    {des}
+                </p>
             </div>
         </div>
     );
